@@ -1,0 +1,1 @@
+<?php echo "Celle-ci a été écrite entièrement en PHP."; ?>

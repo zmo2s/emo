@@ -1,0 +1,9 @@
+
+et aller dans apache et l'activer
+et
+http://fccac9ea.ngrok.io/emo/c.php
+
+> nat pat box créer une connexion puis en se connectant a l'dresse ip de la box   (serv apache activé)
+et connectant ip/emo/c.php ça marche
+ 
+

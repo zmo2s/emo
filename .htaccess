@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /emo
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /emo/index.php?url=$1 [NC,L,QSA]

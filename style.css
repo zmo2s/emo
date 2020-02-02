@@ -1,0 +1,426 @@
+body{
+color:black;
+
+
+position:relative;
+margin:0;
+padding:0;
+font-family: 'Yeon Sung', cursive; 
+background-color: black;
+
+
+
+}
+
+.barre_nav
+{
+    position: relative;
+    margin-top:0vh;
+    margin-left:0%;
+    height:7vh;
+    width:100%;
+    background-color:white;
+    display: flex;
+    flex-wrap: flex wrap;
+
+}
+
+.logo
+{
+    
+    position:relative;
+    margin:0;
+
+    height:100%;
+    width:8vh;
+    margin-left:1%;
+
+  
+}
+.commentaire
+{
+    position:relative;
+    margin-left: 8vh;
+    font-size: 2em;
+    top:1vh;
+    height:100%;
+    width:40vh;
+    margin:0;
+
+  
+}
+
+
+
+
+#menu1 ul {
+   margin:0;
+    padding:0;
+    list-style-type:none;
+
+   margin-left:20vh;
+   position:relative;
+  
+ 
+
+text-align: center;
+
+   border-radius 4vh;
+   
+   
+
+
+
+   
+   display:flex;
+   flex: column;
+
+    }
+   #menu1 li {
+ 
+   border:solid 0.1vh;
+    border-color: white;*/
+width:15vh;
+
+
+
+   display: block;
+    text-align: center;
+    border-radius: 1vh;  
+
+
+    }
+   #menu1 li a {
+    
+    width:17vh;
+    height:4.1vh;
+    
+  padding:2.3vh 0 0vh;
+  
+    text-decoration:none;
+  display:block;
+
+  
+    background-color :rgb(145, 145, 145);
+ 
+    text-decoration: underline;
+    color:white;
+    border-radius: 0.5vh;
+
+    }
+   #menu1 li a:hover {
+    
+  color:rgb(243, 203, 203);
+    border-bottom: 0.5vh solid red;
+   
+}
+
+    
+
+
+
+.compte
+{
+    position:relative;
+ 
+ margin-left:10vh;
+  font-size: 1.4em;  
+width:20vh;
+
+}
+
+.compte:hover
+{
+    color:red;
+}
+
+
+.youtube
+{
+    
+    position:relative;
+    margin:0;
+  margin-top:1.5vh;
+    height:60%;
+    margin-left:3%;
+    width:7vh;
+    
+  
+}
+.youtube:hover
+{
+  
+    opacity: 0.3;
+      filter: alpha(opacity=30);
+}
+
+
+
+.facebook
+{
+    
+    position:relative;
+    margin:0;
+    margin-top:50%;
+    height:40%;
+    margin-left:1vh;
+  width:3vh;
+    
+   
+}
+
+.facebook:hover
+{
+
+    opacity: 0.3;
+      filter: alpha(opacity=30);
+}
+
+
+.twitter
+{
+    
+    position:relative;
+    margin:0;
+    margin-top:2vh;
+    height:40%;
+    margin-left:100%;
+    width:3vh;
+   
+}
+
+.twitter:hover
+{
+
+    opacity: 0.3;
+      filter: alpha(opacity=30);
+}
+
+
+.instagram
+{
+    
+    position:relative;
+    margin:0;
+    margin-top:2vh;
+    height:40%;
+    margin-left:5vh;
+    width:3vh;
+    
+   
+}
+
+.instagram:hover
+{
+
+    opacity: 0.3;
+      filter: alpha(opacity=30);
+}
+
+
+.barre
+{
+  
+      position:relative;
+    /*  flex: 20 1 200px;*/
+      display: flex;
+      flex:column;
+      margin-left:0;
+      background-image:url(images/fond.jpg);
+     
+  background-size: cover;
+
+  
+  
+}
+
+  
+    .barre_gauche
+    {
+        position: relative;
+        margin-top:0vh;
+        left:0vh;
+        height:130vh;
+        width:25vh;
+        background-color: #323232;
+        margin:0;
+        display: flex;
+       
+        flex-flow: column wrap;
+        align-content: stretch;
+        color:white;
+    
+        
+      
+        
+    }
+ .barre_marron{
+     position:relative;
+     margin-left:3vh;
+     width:10vh;
+     background-color:yellow;
+     
+ }
+ h1{
+    position:relative;
+    margin-left:5vh;
+    width: 5hv;
+ }
+
+    .barre_gauche:hover
+    {
+        background-color: rgba(255,255,255,0.5);
+    }
+   
+
+
+    .barre_gauche_noir
+    {
+        position: relative;
+        top:0vh;
+        left:0vh;
+        height:100%;
+        width:0.5vh;
+        background-color:black;
+        display:flex;
+        flex: column;
+        margin:0;
+        
+    }
+
+    .texte_barre_gauche
+    {
+        font-size: 1.4em;
+        margin-left:5%
+    }
+    .montre 
+    {
+        margin-top:20%;
+        left:0%;
+        width:100%;
+        height:30%;
+    }
+
+
+  
+
+        .fond
+        {
+            background-color: white;
+            position:relative;
+            height:120vh;
+            margin-top:5vh;
+            max-width:140vh;
+            display:flex;
+            margin-left:10vh;
+            flex-wrap: wrap;
+          
+
+           
+        }
+
+
+        .fond:hover
+        {
+            background-color: rgba(255,255,255,0.5);
+        }
+       
+
+
+.box {
+            
+       top:0vh;
+            position:absolute;
+
+            /*margin-left:10vh;*/
+    /*margin-right:10vh;*/
+     justify-content: space-around;
+   left:5vh;
+         
+        }
+        
+      .art1 
+      {
+          position:relative;
+  
+          width:57vh;
+          height:17vh;
+          color: white;
+          background: rgb(110, 110, 108);
+          font-size: 2em;
+      }
+    
+
+
+
+
+      .page3{
+     
+      position:relative;
+
+      color:white;
+      height:0vh;
+      width:0vh;
+      border: solid 1px;
+      border-color: yellow;
+
+    margin-left:2vh;
+    display:flex;
+    flex:column;
+    background-color:yellow;
+ top:0vh;
+      }
+      
+      .page1
+      {
+    top:120vh;
+       
+          color :white;
+        position:relative;
+        width:0vh;
+        height:0vh;
+        margin-left:4vh;
+        background-color:yellow;
+      }
+      .page2
+      {
+        top:120vh;
+       
+          color :white;
+        position:relative;
+        width:0vh;
+        height:0vh;
+        margin-left:4vh;
+           background-color:yellow;
+      }
+ 
+       .triangle {
+           position:relative;
+        width:0;
+        height:0;
+        border-top: 8vh solid red;
+        border-right: 10vh solid transparent;
+        position:relative;
+    left:10vh;
+    top:0vh;
+      }
+
+      .new1
+      {
+     font-size: 1.3em;
+            position:relative;
+         width:0vh;
+         height:0vh;
+     color:white;
+background-color: black;
+     left:1vh;
+     top:0.5vh;
+       }
+      .article1
+       {
+            border: 1px solid rgb(223, 166, 93);
+            border-radius: 4px;
+            padding: 5px;
+            width: 57vh;
+          }
+      
